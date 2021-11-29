@@ -11,7 +11,7 @@ let nome = " Paolo ";
 let numero = 5,
 
 // scrivo un ciclo for che conti da 1 a numero
-for(i01; i<=numero; i++) {
-
+for(i=1; i<=numero; i++) {
+        //      ad ogni ripetizione scrivo il nome
+        console.log(nome);
 }
-//       ad ogni ripetizione scrivo il nome
