@@ -12,7 +12,7 @@ let nome = "Laura";
 let numero = 3;
 
 // definisco e assegno una variabile sesso
-let sesso = "m";
+let sesso = "F";
 
 // scrivo un ciclo for che conti da 1 a numero
 for (i=1; i<=numero; i++) {
