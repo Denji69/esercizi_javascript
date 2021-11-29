@@ -8,10 +8,10 @@
 let nome = " Paolo ";
 
 // definisco e assegno una variabile numero
-let numero = 5,
+let numero = 5;
 
 // scrivo un ciclo for che conti da 1 a numero
-for(i=1; i<=numero; i++) {
-        //      ad ogni ripetizione scrivo il nome
+for (i=1; i<=numero; i++) {
+       
         console.log(nome);
 }
