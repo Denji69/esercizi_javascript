@@ -12,15 +12,22 @@ let nome = "Laura";
 let numero = 3;
 
 // definisco e assegno una variabile sesso
-let sesso = "m";
+let sesso = "f";
 
 // scrivo un ciclo for che conti da 1 a numero
 for (i=1; i<=numero; i++) {
         // se il sesso è maschile 
+        if(sesso == "m") {
         //      preparo una frase
+            frase = "Benvenuto " + nome;
+        }
         // altrimenti
+        else {
         //     preparo l'altra
-
+           frase = "Benvenuta " + nome;
+           
+        }
+        
 
         // scrivo la frase
         console.log(nome);
